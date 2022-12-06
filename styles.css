@@ -9,7 +9,7 @@ h1{
     margin-bottom: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
-    padding-right: 60px;;
+    padding-right: 160px;;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 29px;
 }
@@ -58,21 +58,84 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }.box-2{
     width: 400px;
-    
     margin-top: 30px;
     margin-bottom: 30px
+}
+.encabezado-box2{
+    display: flex;
+    background-color: white;
+    width: 450px;
+    height: 35px;
+}
+#encabezado-texto-box2{
+    width: 90%;
+    padding-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #encabezado-texto-box2 p{
+    margin-block-start: 3px;
+  }
+  #encabezado-fecha-box2{
+    padding-right: 5px;
+    color: gray;
+  }
+  #encabezado-fecha-box2 p{
+    margin-block-start: 3px;
+  }
+#perro-box2{
+    width: 450px;
+    height: 400px;
+}
+.pie-box2 p{
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    background-color: white;
+    width: 430px;   
+}
+#encabezado-texto-box3{
+    width: 90%;
+    height: 110px;
+    padding-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #encabezado-texto-box3 p{
+    margin-block-start: 10px;
+  }
+  .pie-box2 p{
+    margin: 0px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    background-color: white;
+    width: 430px;   
 }
 .box-3{
     width: 400px;
 }
-.pie-box2 p{
-    margin: 0px;
-    padding-top: 25px;
-    padding-bottom: 7px;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: white;
-    width: 430px;   
+#comida-box3{
+    width: 450px;
+    height: 300px;
 }
+.pie-box3{
+    background-color: white;
+    width: 450px;
+    height: 110px;
+}
+.pie-box3 p{
+    margin: 0px;
+    border: 0px;
+    padding-top: 85px;
+    padding-left: 15px;
+    font-size: 13px;
+}
+
